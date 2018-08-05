@@ -1,4 +1,4 @@
-#This sources a pregenerated key from disk.
+#This sources a pregenerated key from disk. 
 
 provider "aws" {
   region = "eu-west-1"
@@ -25,7 +25,7 @@ data "aws_ami" "windows_ami" {
 
   filter {
     name   = "name"
-    values = ["Windows_Server-2016-English-Full-Base-*"]
+    values = ["Windows_Server-2016-English-Full-Base- *"]
   }
 }
 
